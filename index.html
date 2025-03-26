@@ -54,58 +54,39 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
+      
     </div>
   </header>
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center content">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h2>Portfolio</h2>
-            <p class="lead">Communication Designer</p>
-            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-              <a href="#portfolio" class="btn btn-primary">View My Work</a>
-              <a href="#contact" class="btn btn-outline">Let's Connect</a>
-            </div>
-            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
-              <div class="stat-item">
-                <span class="stat-number"></span>
-                <span class="stat-label"></span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number"></span>
-                <span class="stat-label"></span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number"></span>
-                <span class="stat-label"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-image">
-              <img src="" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300">
-              <div class="shape-1"></div>
-              <div class="shape-2"></div>
-            </div>
-          </div>
+<!-- Hero Section -->
+<section id="hero" class="hero section position-relative d-flex align-items-end" style="height: 90vh; margin: 0;">
+  <div class="container h-100 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="row align-items-center content w-100">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h2>Portfolio</h2>
+        <p class="lead">Communication Designer</p>
+        <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+          <a href="#portfolio" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
         </div>
-
       </div>
+      <div class="col-lg-6 position-relative d-flex justify-content-start">
+        <div class="hero-image">
+          <img src="c:\Users\angel\Downloads\image-removebg-preview (8).png" 
+               alt="Hero Image" 
+               class="img-fluid"
+               data-aos="zoom-out" 
+               data-aos-delay="300"
+               style="max-height: 110vh; width: auto; display: block;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    </section><!-- /Hero Section -->
+
 
   <!-- About Section --> 
   <section id="about" class="about section light-background">
@@ -179,9 +160,9 @@
 
   </section><!-- /About Section -->
 
-   <!-- Skills Section -->
+ <!-- Skills Section --> 
 <section id="skills" class="skills section">
-
+  
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
       <h2>Skills</h2>
@@ -190,90 +171,85 @@
               <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
           </svg>
       </div>
-      <p></p>
   </div><!-- End Section Title -->
 
-  <div class="row g-4 skills-animation text-center"> 
-  
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/img/icon/Adobe_Illustrator_CC_icon.svg.png" alt="HTML Logo" class="img-fluid">
+  <div class="container">
+      <div class="row gy-4"> <!-- Added spacing between rows -->
+          
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <h5>Adobe Illustrator</h5>
+              <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 94%; background-color: #ff5733;" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">94%</div>
+              </div>
+          </div>
+          
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <h5>Photoshop</h5>
+              <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 87%; background-color: #28a745;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">87%</div>
+              </div>
+          </div>
+          
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <h5>InDesign</h5>
+              <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #17a2b8;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+          </div>
+          
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <h5>Premiere Pro</h5>
+              <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #ffc107;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <h5>Audacity</h5>
+              <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #6610f2;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <h5>Visual Studio Code</h5>
+              <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 65%; background-color: #dc3545;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+              </div>
+          </div>
+
       </div>
-  
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/icon/Adobe_Photoshop_CC_icon.svg.png" alt="CSS Logo" class="img-fluid">
-      </div>
-  
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
-          <img src="assets/img/icon/Adobe_InDesign_CC_icon.svg.png" alt="JavaScript Logo" class="img-fluid">
-      </div>
-  
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
-          <img src="assets/img/icon/images.png" alt="Photoshop Logo" class="img-fluid">
-      </div>
-      
   </div>
 
 </section>
 
-</section>
+
 
 
   <!-- Resume Section -->
-  <section id="resume" class="resume section">
+<section id="resume" class="Curriculum vitae">
 
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Resume</h2>
-      <div class="title-shape">
-        <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
-        </svg>
-      </div>
-      <p></p>
-    </div><!-- End Section Title -->
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="row">
-        <div class="col-12">
-          <div class="resume-wrapper">
-            <div class="resume-block" data-aos="fade-up" data-aos-delay="100">
-              <h2>My Education</h2>
-              <p class="lead"></p>
-
-              <div class="timeline">
-                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="timeline-left">
-                    <h4 class="company">Unitedworld Insititue of Design</h4>
-                    <span class="period">2023 - 2027</span>
-                  </div>
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-right">
-                    <h3 class="position">Parvati Radhakishen Fomra school</h3>
-                    <p class="description">2011 - 2023</p>
-                  </div>
-                </div>
-
-                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="timeline-left">
-                    <h4 class="company">Nullam Corp</h4>
-                    <span class="period">2019 - 2023</span>
-                  </div>
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-right">
-                    <h3 class="position">Master of Fine Arts &amp; Graphic Design</h3>
-                    <p class="description">Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas tempus.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
     </div>
+    <p></p>
+  </div><!-- End Section Title -->
 
-  </section><!-- /Resume Section -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="c:\Users\angel\Downloads\Modern Professional CV Resume (1).jpg" alt="My CV" class="img-fluid shadow-lg rounded">
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Resume Section -->
+
 
 
     <!-- Portfolio Section -->
@@ -497,49 +473,39 @@
    
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
+<section id="contact" class="contact section light-background">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="content" data-aos="fade-up" data-aos-delay="200">
+          <div class="section-category mb-3"></div>
+          <h2 class="display-5 mb-4"></h2>
+          <p class="lead mb-4"></p>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-info mt-5">
+            <div class="info-item d-flex mb-3">
+              <i class="bi bi-envelope-at me-3"></i>
+              <span>angel.khaatri@gmail.com</span>
+            </div>
 
-        <div class="row g-5">
-          <div class="col-lg-6">
-            <div class="content" data-aos="fade-up" data-aos-delay="200">
-              <div class="section-category mb-3">Contact</div>
-              <h2 class="display-5 mb-4"></h2>
-              <p class="lead mb-4"></p>
+            <div class="info-item d-flex mb-3">
+              <i class="bi bi-telephone me-3"></i>
+              <span>+91 6397619448</span>
+            </div>
 
-              <div class="contact-info mt-5">
-                <div class="info-item d-flex mb-3">
-                  <i class="bi bi-envelope-at me-3"></i>
-                  <span>angel.khaatri@gmail.com</span>
-                </div>
-
-                <div class="info-item d-flex mb-3">
-                  <i class="bi bi-telephone me-3"></i>
-                  <span>+91 6397619448</span>
-                </div>
-
-                <div class="info-item d-flex mb-4">
-                  <i class="bi bi-geo-alt me-3"></i>
-                  <span>Karnavati University Uvarsad-Adalaj Road , Gandhinagar, Gujarat 382422</span>
-                </div>
-
-                
-              </div>
+            <div class="info-item d-flex mb-4">
+              <i class="bi bi-geo-alt me-3"></i>
+              <span>63/C Krishna nagar Mathura, 281004</span>
             </div>
           </div>
+        </div> <!-- Closing .content -->
+      </div> <!-- Closing .col-lg-6 -->
+    </div> <!-- Closing .row -->
+  </div> <!-- Closing .container -->
+</section>
+<!-- /Contact Section -->
 
-          
 
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
 
   </main>
 
